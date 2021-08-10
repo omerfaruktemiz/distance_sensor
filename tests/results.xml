@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites failures="1" name="TestXML" tests="1" time="0">
+	<testsuite name="" failures="1"  tests="1" time="0">
+		<testcase name=" left sensor is okay" time="0">
+			<failure message="EXPECTED: |null| Null != null but GOT |null| Null == null"></failure></testcase>
+	</testsuite>
+
+</testsuites>

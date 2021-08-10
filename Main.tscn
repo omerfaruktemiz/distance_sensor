@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=2]
+[ext_resource path="res://DistanceSensor.tscn" type="PackedScene" id=4]
+
+[node name="Main" type="Node"]
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_left = 0.00233841
+anchor_top = -0.00155902
+anchor_right = 0.00233841
+anchor_bottom = -0.00155902
+margin_left = -2.53662
+margin_top = -0.291748
+margin_right = 477.463
+margin_bottom = 719.708
+color = Color( 0.788235, 0.0392157, 0.54902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MobTimer" type="Timer" parent="."]
+wait_time = 0.2
+
+[node name="DistanceSensor" parent="." instance=ExtResource( 4 )]
+position = Vector2( 240, 360 )
+up_sensor_range = 360
+up_sensor_collision_status = "Areas and Bodies"
