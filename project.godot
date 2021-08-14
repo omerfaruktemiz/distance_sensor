@@ -9,16 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Area2D",
-"class": "DistanceSensor",
-"language": "GDScript",
-"path": "res://DistanceSensor.gd"
-}, {
-"base": "Node",
-"class": "Main",
-"language": "GDScript",
-"path": "res://Main.gd"
-}, {
 "base": "Reference",
 "class": "WAT",
 "language": "GDScript",
@@ -30,8 +20,6 @@ _global_script_classes=[ {
 "path": "res://addons/WAT/core/test/test.gd"
 } ]
 _global_script_class_icons={
-"DistanceSensor": "",
-"Main": "",
 "WAT": "",
 "WATTest": ""
 }
