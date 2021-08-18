@@ -1,0 +1,4 @@
+[gd_scene format=2]
+
+[node name="DenemeRay" type="RayCast2D"]
+cast_to = Vector2( 0, -240 )
