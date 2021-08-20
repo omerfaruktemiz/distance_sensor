@@ -1,9 +1,3 @@
 {
-	"res://tests/test.gd": {
-		"path": "res://tests/test.gd",
-		"tags": [
 
-		],
-		"passing": false
-	}
 }
