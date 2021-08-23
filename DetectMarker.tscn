@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="DetectMarker" type="ColorRect"]
+margin_right = 5.0
+margin_bottom = 5.0
+color = Color( 0.772549, 0.109804, 0.109804, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
